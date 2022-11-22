@@ -1,0 +1,51 @@
+.project__box {
+    margin: 1.25rem;
+    width: 20.375rem;
+    height: 27.875rem;
+}
+
+.project__name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 1.25rem;
+}
+
+.project__img{
+    width: 6.25rem;
+    opacity: 60%;
+}
+
+.project__tech {
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: var(--gold);
+    margin: 0;
+}
+
+.project__description {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin: 1.875rem 2.1875rem;
+    line-height: 1.1875rem;
+}
+
+.project__links {
+    margin: .625rem;
+
+}
+
+.project__button{
+    text-decoration: none;
+    padding: .4375rem .625rem;
+    font-size: .9375rem;
+    display: inline-block;
+    width: 5.9375rem;
+    color: var(--gold);
+    margin: 0 .625rem;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+}

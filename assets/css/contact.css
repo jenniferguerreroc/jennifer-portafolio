@@ -1,0 +1,31 @@
+.contact__form {
+    margin-bottom: 3.25rem;
+    width: 43.75rem;
+    height: 34.875rem;
+}
+
+.input {
+    width: 37rem;
+    background: transparent;
+    padding: .625rem;
+    margin: .9375rem 0;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    color: var(--white);
+}
+
+.contact__message {
+    height: 12.1875rem;
+    resize: none;
+}
+
+.contact__send {
+    background: transparent;
+    border-radius: 20px;
+    padding: 0.4375rem 0.625rem;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    width: 5.9375rem;
+    margin: .375rem 0.625rem;
+    cursor: pointer;
+}

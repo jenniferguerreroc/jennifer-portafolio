@@ -1,0 +1,42 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 1.125rem;
+    height: 80vh;
+}
+
+.about-me__name {
+    color: var(--gold)
+}
+
+.about-me__name,
+.about-me__surname {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: -0.300rem;
+}
+
+.about-me__presentation {
+    max-width: 44rem;
+    text-align: center;
+    line-height: 1.5625rem;
+    font-weight: 300;
+    padding: 0 2.5rem
+}
+
+.about-me__button{
+    text-decoration: none;
+    padding: .4375rem .625rem;
+    font-size: .9375rem;
+    display: inline-block;
+    width: 5.9375rem;
+    color: var(--gold);
+    margin: 1.25rem .625rem;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+    text-align: center;
+}

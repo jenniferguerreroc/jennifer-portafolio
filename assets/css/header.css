@@ -1,0 +1,59 @@
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header__movile{
+    width: 1.875rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1.5rem;
+    display: none;
+}
+
+.header__nav{
+    align-self: center;
+}
+
+.header__menu {
+    position: relative;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin: 0 2rem;
+    font-weight: 300;
+    padding-bottom: .3125rem;
+}
+
+/*menu effect*/
+.header__menu:after {
+    content: "";
+    position: absolute;
+    background-color: var(--gold);
+    height: .125rem;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition-duration: 0.3s;
+}
+
+.header__menu:hover:after {
+    width: 100%;
+}
+
+.header__icons {
+    opacity: 70%;
+    margin: 0 2.4375rem;
+    position: absolute;
+    right: 0;
+}
+
+.header__social-net {
+    width: 1.5625rem;
+    padding: .3125rem;
+}

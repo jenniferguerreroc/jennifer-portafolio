@@ -1,0 +1,35 @@
+.education__box {
+    margin: 1.25rem;
+    width: 20.375rem;
+    height: 19.125rem;
+}
+
+.education__status {
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: var(--gold);
+}
+
+.education__logo {
+    width: 6.25rem;
+    padding: .9375rem 0;
+    opacity: 60%;
+}
+
+.education__studies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    letter-spacing: 0rem;
+    margin: 0 1.875rem;
+    line-height: 1.875rem;
+    font-weight: 600;
+    height: 3.75rem;
+
+}
+
+.education__institution {
+    margin: .625rem 1.875rem;
+    font-size: .9375rem;
+}
