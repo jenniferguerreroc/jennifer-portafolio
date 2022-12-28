@@ -7,6 +7,11 @@
             "article" auto
             "footer" 1.8%;
     }
+    
+    .about-me__complete-name {
+        text-align: center;
+        display: block;
+    }
 
     .about-me {
         height: auto;
@@ -15,6 +20,7 @@
     .about-me__name,
     .about-me__surname {
         font-size: 3rem;
+        margin: -1rem;
     }
 
     .title {
