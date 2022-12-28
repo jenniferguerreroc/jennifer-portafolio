@@ -8,6 +8,12 @@
     height: 80vh;
 }
 
+.about-me__complete-name {
+    text-align: center;
+    display: flex;
+    margin: 0;
+}
+
 .about-me__name {
     color: var(--gold)
 }
@@ -17,7 +23,7 @@
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 600;
-    margin: -0.300rem;
+    margin: 0.5rem;
 }
 
 .about-me__presentation {
